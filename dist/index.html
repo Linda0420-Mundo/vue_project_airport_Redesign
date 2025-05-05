@@ -1,13 +1,22 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh-Hant">
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/vue_project_airport_Redesign/favicon.ico">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <title>台中國際機場</title>
+    <script>
+      // 處理 GitHub Pages 路由
+      (function() {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/vue_project_airport_Redesign/assets/index-Dny4znxW.js"></script>
-    <link rel="stylesheet" crossorigin href="/vue_project_airport_Redesign/assets/index-DmCwpm_7.css">
+    <link rel="stylesheet" href="/vue_project_airport_Redesign/assets/index-DmCwpm_7.css">
   </head>
   <body>
     <div id="app"></div>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/vue_project_airport_Redesign/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台中國際機場</title>
+    <script>
+      // 單頁應用程式的 GitHub Pages 重定向
+      (function() {
+        const segment = 1;
+        const l = window.location;
+        const repo = '/vue_project_airport_Redesign';
+        const redirect = l.pathname.split('/').slice(0, 1 + segment).join('/') + repo + '/?p=/' + 
+          l.pathname.slice(1).split('/').slice(segment).join('/').replace(/&/g, '~and~') +
+          (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash;
+        l.replace(redirect);
+      }());
+    </script>
+  </head>
+  <body>
+  </body>
+</html> 
