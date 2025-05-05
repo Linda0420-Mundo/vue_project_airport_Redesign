@@ -1,3 +1,4 @@
+<template>
   <section class="py-24">
       <div class="container">
         <div class="grid grid-cols-1 gap-16 md:grid-cols-2">
@@ -93,5 +94,12 @@
         </div>
       </div>
     </section>
+</template>
 
-    <!-- 網站流程 -->
+<script>
+export default {
+  name: 'PortfolioView'
+}
+</script>
+
+<!-- 網站流程 -->

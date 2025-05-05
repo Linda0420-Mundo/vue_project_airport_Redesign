@@ -30,9 +30,7 @@
       <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         <!-- 新聞發布 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
-          <div class="aspect-w-16 aspect-h-9">
-            <img src="@/assets/images/news1.jpg" alt="新聞圖片" class="object-cover w-full h-full">
-          </div>
+          <div class="aspect-w-16 aspect-h-9 bg-gray-200"></div>
           <div class="p-6">
             <div class="flex gap-2 items-center mb-4">
               <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">新聞發布</span>
@@ -46,8 +44,7 @@
 
         <!-- 影音專區 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
-          <div class="relative aspect-w-16 aspect-h-9">
-            <img src="@/assets/images/video1.jpg" alt="影片縮圖" class="object-cover w-full h-full">
+          <div class="relative aspect-w-16 aspect-h-9 bg-gray-200">
             <div class="flex absolute inset-0 justify-center items-center">
               <div class="flex justify-center items-center w-16 h-16 rounded-full bg-white/30">
                 <i class="text-xl text-white fas fa-play"></i>
@@ -68,10 +65,10 @@
         <!-- 圖片集錦 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
           <div class="grid grid-cols-2 gap-1">
-            <img src="@/assets/images/gallery1.jpg" alt="圖片1" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery2.jpg" alt="圖片2" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery3.jpg" alt="圖片3" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery4.jpg" alt="圖片4" class="object-cover aspect-square">
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
           </div>
           <div class="p-6">
             <div class="flex gap-2 items-center mb-4">
@@ -86,9 +83,7 @@
 
         <!-- 新聞發布 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
-          <div class="aspect-w-16 aspect-h-9">
-            <img src="@/assets/images/news2.jpg" alt="新聞圖片" class="object-cover w-full h-full">
-          </div>
+          <div class="aspect-w-16 aspect-h-9 bg-gray-200"></div>
           <div class="p-6">
             <div class="flex gap-2 items-center mb-4">
               <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">新聞發布</span>
@@ -102,8 +97,7 @@
 
         <!-- 影音專區 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
-          <div class="relative aspect-w-16 aspect-h-9">
-            <img src="@/assets/images/video2.jpg" alt="影片縮圖" class="object-cover w-full h-full">
+          <div class="relative aspect-w-16 aspect-h-9 bg-gray-200">
             <div class="flex absolute inset-0 justify-center items-center">
               <div class="flex justify-center items-center w-16 h-16 rounded-full bg-white/30">
                 <i class="text-xl text-white fas fa-play"></i>
@@ -124,10 +118,10 @@
         <!-- 圖片集錦 -->
         <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
           <div class="grid grid-cols-2 gap-1">
-            <img src="@/assets/images/gallery5.jpg" alt="圖片5" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery6.jpg" alt="圖片6" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery7.jpg" alt="圖片7" class="object-cover aspect-square">
-            <img src="@/assets/images/gallery8.jpg" alt="圖片8" class="object-cover aspect-square">
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
+            <div class="bg-gray-200 aspect-square"></div>
           </div>
           <div class="p-6">
             <div class="flex gap-2 items-center mb-4">
