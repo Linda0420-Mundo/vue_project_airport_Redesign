@@ -1,0 +1,164 @@
+<template>
+  <div class="min-h-screen bg-[#f9fafb]">
+    <!-- 頁面標題 -->
+    <div class="py-8 bg-[#7260a3] text-white">
+      <div class="container px-4 mx-auto">
+        <h1 class="text-[2rem] font-[700]">媒體中心</h1>
+        <p class="mt-2 text-white/80">最新消息、影音專區與圖片集錦</p>
+      </div>
+    </div>
+
+    <!-- 主要內容區 -->
+    <div class="container px-4 py-8 mx-auto">
+      <!-- 分類標籤 -->
+      <div class="flex flex-wrap gap-4 mb-8">
+        <button class="px-6 py-2 bg-[#7260a3] text-white rounded-full text-[0.875rem] font-[500]">
+          全部
+        </button>
+        <button class="px-6 py-2 bg-white text-[#6b7280] rounded-full text-[0.875rem] font-[500]">
+          新聞發布
+        </button>
+        <button class="px-6 py-2 bg-white text-[#6b7280] rounded-full text-[0.875rem] font-[500]">
+          影音專區
+        </button>
+        <button class="px-6 py-2 bg-white text-[#6b7280] rounded-full text-[0.875rem] font-[500]">
+          圖片集錦
+        </button>
+      </div>
+
+      <!-- 媒體內容列表 -->
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <!-- 新聞發布 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="aspect-w-16 aspect-h-9">
+            <img src="@/assets/images/news1.jpg" alt="新聞圖片" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">新聞發布</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/03/20</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">台中國際機場旅客量創新高</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">2024年第一季旅客運量突破百萬人次，較去年同期成長30%...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">閱讀更多 →</a>
+          </div>
+        </div>
+
+        <!-- 影音專區 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="relative aspect-w-16 aspect-h-9">
+            <img src="@/assets/images/video1.jpg" alt="影片縮圖" class="object-cover w-full h-full">
+            <div class="flex absolute inset-0 justify-center items-center">
+              <div class="flex justify-center items-center w-16 h-16 rounded-full bg-white/30">
+                <i class="text-xl text-white fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">影音專區</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/03/15</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">智慧通關服務介紹</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">了解如何使用機場最新的智慧通關系統，快速完成通關程序...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">觀看影片 →</a>
+          </div>
+        </div>
+
+        <!-- 圖片集錦 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="grid grid-cols-2 gap-1">
+            <img src="@/assets/images/gallery1.jpg" alt="圖片1" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery2.jpg" alt="圖片2" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery3.jpg" alt="圖片3" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery4.jpg" alt="圖片4" class="object-cover aspect-square">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">圖片集錦</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/03/10</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">機場藝術裝置展覽</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">展現在地特色的藝術作品，為旅客帶來視覺饗宴...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">查看相簿 →</a>
+          </div>
+        </div>
+
+        <!-- 新聞發布 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="aspect-w-16 aspect-h-9">
+            <img src="@/assets/images/news2.jpg" alt="新聞圖片" class="object-cover w-full h-full">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">新聞發布</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/03/05</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">新增國際航線公告</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">台中-東京航線即將開通，每週提供七個往返航班...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">閱讀更多 →</a>
+          </div>
+        </div>
+
+        <!-- 影音專區 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="relative aspect-w-16 aspect-h-9">
+            <img src="@/assets/images/video2.jpg" alt="影片縮圖" class="object-cover w-full h-full">
+            <div class="flex absolute inset-0 justify-center items-center">
+              <div class="flex justify-center items-center w-16 h-16 rounded-full bg-white/30">
+                <i class="text-xl text-white fas fa-play"></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">影音專區</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/03/01</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">機場防疫措施說明</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">了解機場最新的防疫規定和措施，確保旅客安全...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">觀看影片 →</a>
+          </div>
+        </div>
+
+        <!-- 圖片集錦 -->
+        <div class="bg-white rounded-[0.5rem] shadow-sm overflow-hidden">
+          <div class="grid grid-cols-2 gap-1">
+            <img src="@/assets/images/gallery5.jpg" alt="圖片5" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery6.jpg" alt="圖片6" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery7.jpg" alt="圖片7" class="object-cover aspect-square">
+            <img src="@/assets/images/gallery8.jpg" alt="圖片8" class="object-cover aspect-square">
+          </div>
+          <div class="p-6">
+            <div class="flex gap-2 items-center mb-4">
+              <span class="px-3 py-1 text-[0.75rem] font-[500] text-[#7260a3] bg-[#7260a3]/10 rounded-full">圖片集錦</span>
+              <span class="text-[0.75rem] text-[#6b7280]">2024/02/25</span>
+            </div>
+            <h2 class="text-[1.25rem] font-[600] mb-2">航廈擴建工程進度</h2>
+            <p class="text-[#4b5563] text-[0.875rem] mb-4">記錄第二航廈擴建工程的重要里程碑...</p>
+            <a href="#" class="text-[#7260a3] text-[0.875rem] font-[500]">查看相簿 →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 分頁 -->
+      <div class="flex justify-center items-center mt-8 space-x-2">
+        <button class="w-8 h-8 flex items-center justify-center rounded-[0.375rem] border border-[#e5e7eb] text-[#6b7280]">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="w-8 h-8 flex items-center justify-center rounded-[0.375rem] bg-[#7260a3] text-white">1</button>
+        <button class="w-8 h-8 flex items-center justify-center rounded-[0.375rem] border border-[#e5e7eb] text-[#6b7280]">2</button>
+        <button class="w-8 h-8 flex items-center justify-center rounded-[0.375rem] border border-[#e5e7eb] text-[#6b7280]">3</button>
+        <button class="w-8 h-8 flex items-center justify-center rounded-[0.375rem] border border-[#e5e7eb] text-[#6b7280]">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'MediaView'
+}
+</script>
